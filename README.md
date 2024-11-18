@@ -30,7 +30,7 @@ I didn't finish all the points asked in the assignment, but if it were a larger 
 - Better construction in the pdf parser and error handling
 - Use of Records
 - Good setup for SecurityConfig
-- More documentation
+- More documentation on functions and classes 
 
 
 If you have any questions, feel free to ask.
