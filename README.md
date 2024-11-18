@@ -14,7 +14,7 @@ This project is initialized with spring boot initializr. This is a project gener
 I didn't finish all the points asked in the assignment, but if it were a larger project and I had more time I would have incorporated additional elements such as:
 - More security jwt, rols, good setup for SecurityConfig
 - Piplines for building, testing and QA tasks
-- More test coverage
+- More test coverage and test for all the classes
 - Integration tests
 - More error handling
 - Correct error responses
@@ -24,6 +24,7 @@ I didn't finish all the points asked in the assignment, but if it were a larger 
 - Docker setup for database
 - Database migration framework
 - Config for test/stg/pro
+- Better construction in the pdf parser and error handling
 - Use of Records
 - Good setup for SecurityConfig
 - More documentation
