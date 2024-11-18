@@ -1,0 +1,18 @@
+### Retrieve Lost Items (USER)
+GET http://localhost:8080/v1/lost-item
+Authorization: Bearer <USER_JWT_TOKEN>
+Content-Type: application/json
+
+
+### Upload Lost Items (ADMIN)
+POST http://localhost:8080/v1/lost-item/upload
+Authorization: Bearer <ADMIN_JWT_TOKEN>
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="lost_items.pdf"
+Content-Type: application/pdf
+
+< ./Lost_and_Found_Report.pdf
+
+--boundary--

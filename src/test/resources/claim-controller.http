@@ -1,0 +1,16 @@
+### Retrieve all claims (ADMIN)
+GET http://localhost:8080/v1/claim
+Authorization: Bearer <ADMIN_JWT_TOKEN>
+Content-Type: application/json
+
+###
+
+### Claim a lost item (USER)
+POST http://localhost:8080/v1/claim
+Authorization: Bearer <USER_JWT_TOKEN>
+Content-Type: application/json
+
+{
+  "lostItemId": "ba08a0a5-450d-4a4b-94ce-2fe17a6c40f3",
+  "quantity": 2
+}
