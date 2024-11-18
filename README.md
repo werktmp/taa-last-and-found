@@ -10,9 +10,8 @@ The Lost & Found is a software designed to keep track of lost items and found it
 ## Project structure
 This project is initialized with spring boot initializr. This is a project generator tool for more information see: [spring initializr](https://start.spring.io//)
 
-
-
-# I didn't include some elements, but if it were a larger project and had more time I would have incorporated additional elements such as:
+## Notes
+I didn't finish all the points asked in the assignment, but if it were a larger project and I had more time I would have incorporated additional elements such as:
 - More security jwt, rols, good setup for SecurityConfig
 - More test coverage
 - Intergration tests
